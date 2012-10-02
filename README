@@ -1,0 +1,9 @@
+
+Mess3D Client and Server
+
+To start the server on Windows (64 bit)
+Open server\photon\bin_Win64\Photon_Control.exe
+Right click the icon in the tray and choose Default > Start as application
+
+To start the client, run client\unity\Assets\Debug.unity
+Hit the play button in the toolbar in Unity

@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Skydome\Skydome.cs">
+    <Files>
+      <File FileName="Assets\RealtimeDemo\DemoGuiAndInput.cs" Line="63" Column="18" />
+      <File FileName="Assets\RealtimeDemo\Game.cs" Line="94" Column="24" />
+      <File FileName="Assets\Photon\PhotonNetSimSettingsGui.cs" Line="2" Column="12" />
+      <File FileName="Assets\RealtimeDemo\Player.cs" Line="131" Column="64" />
+      <File FileName="Assets\Editor\build.cs" Line="34" Column="2" />
+      <File FileName="Assets\Photon\PhotonClient.cs" Line="17" Column="12" />
+      <File FileName="Assets\Photon\PhotonStatsGui.cs" Line="1" Column="12" />
+      <File FileName="Assets\skydome\aScattering2.0.shader" Line="133" Column="1" />
+      <File FileName="Assets\skydome\Sun.cs" Line="11" Column="38" />
+      <File FileName="Assets\Transparency.js" Line="8" Column="1" />
+      <File FileName="Assets\Skydome\Skydome.cs" Line="17" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
