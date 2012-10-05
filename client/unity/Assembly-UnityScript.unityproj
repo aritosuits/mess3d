@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Transparency.js" />
+     <Compile Include="Assets\Scripts\WorldRotate.js" />
      <None Include="Assets\Photon\library\Photon3Unity3D.xml" />
      <None Include="Assets\Skydome\aScattering2.0.shader" />
  <Reference Include="Photon3Unity3D">

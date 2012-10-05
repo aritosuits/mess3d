@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\WorldRotate.js">
     <Files>
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.js" Line="94" Column="2" />
       <File FileName="Assets\Photon\PhotonClient.cs" Line="1" Column="1" />
-      <File FileName="Assets\Skydome\skydomeScript2.cs" Line="24" Column="1" />
+      <File FileName="Assets\Skydome\skydomeScript2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\WorldRotate.js" Line="29" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

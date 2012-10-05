@@ -13,6 +13,8 @@ public var runMaxAnimationSpeed : float = 1.0;
 public var jumpAnimationSpeed : float = 1.15;
 public var landAnimationSpeed : float = 1.0;
 
+public var world : Transform;
+
 private var _animation : Animation;
 
 enum CharacterState {
@@ -152,7 +154,7 @@ function UpdateSmoothedMovementDirection ()
 		
 	// Target direction relative to the camera
 	var targetDirection = h * right + v * forward;
-	
+
 	// Grounded controls
 	if (grounded)
 	{
@@ -304,10 +306,10 @@ function Update() {
 	// Apply gravity
 	// - extra power jump modifies gravity
 	// - controlledDescent mode modifies gravity
-	ApplyGravity ();
+	//ApplyGravity ();
 
 	// Apply jumping logic
-	ApplyJumping ();
+	//ApplyJumping ();
 	
 	// Calculate actual motion
 	var movement = moveDirection * moveSpeed + Vector3 (0, verticalSpeed, 0) + inAirVelocity;
@@ -315,8 +317,8 @@ function Update() {
 	
 	// Move the controller
 	var controller : CharacterController = GetComponent(CharacterController);
-	collisionFlags = controller.Move(movement);
-	
+	//collisionFlags = controller.Move(movement);
+
 	// ANIMATION sector
 	if(_animation) {
 		if(_characterState == CharacterState.Jumping) 
