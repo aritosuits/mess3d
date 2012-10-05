@@ -47,6 +47,9 @@
      <Compile Include="Assets\Scripts\Transparency.js" />
      <None Include="Assets\Photon\library\Photon3Unity3D.xml" />
      <None Include="Assets\Skydome\aScattering2.0.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>Assets\Photon\library\Photon3Unity3D.dll</HintPath>
  </Reference>

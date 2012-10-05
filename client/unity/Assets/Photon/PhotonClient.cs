@@ -110,7 +110,8 @@ public class PhotonClient : MonoBehaviour, IPhotonPeerListener
     /// </summary>
     public virtual void OnApplicationQuit()
     {
-        this.Peer.Disconnect();
+		// ***** UNCOMMENT LATER
+    	//this.Peer.Disconnect();
     }
 
     /// <summary>
