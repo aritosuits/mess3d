@@ -44,13 +44,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CharacterMotor.js" />
+     <Compile Include="Assets\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\Scripts\ThirdPersonController.js" />
      <Compile Include="Assets\Scripts\Transparency.js" />
      <Compile Include="Assets\Scripts\WorldRotate.js" />
      <None Include="Assets\Photon\library\Photon3Unity3D.xml" />
      <None Include="Assets\Skydome\aScattering2.0.shader" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>Assets\Photon\library\Photon3Unity3D.dll</HintPath>
  </Reference>

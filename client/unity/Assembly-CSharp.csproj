@@ -51,6 +51,10 @@
      <Compile Include="Assets\RealtimeDemo\Game.cs" />
      <Compile Include="Assets\RealtimeDemo\Player.cs" />
      <Compile Include="Assets\Scripts\deleteOnStart.cs" />
+     <Compile Include="Assets\Scripts\displayFPS.cs" />
+     <Compile Include="Assets\Scripts\monoSingleton.cs" />
+     <Compile Include="Assets\Scripts\voxelDig.cs" />
+     <Compile Include="Assets\Scripts\voxelPlanet.cs" />
      <Compile Include="Assets\Skydome\Sun.cs" />
      <Compile Include="Assets\Skydome\skydomeScript2.cs" />
      <None Include="Assets\Photon\library\Photon3Unity3D.xml" />
@@ -58,10 +62,6 @@
  <Reference Include="Photon3Unity3D">
  <HintPath>Assets\Photon\library\Photon3Unity3D.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{DDBF2BCB-11D1-BF7F-7A25-71D1DF05CBE4}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
